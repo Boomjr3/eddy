@@ -1,0 +1,51 @@
+p{
+	font-size: 30px;
+	font-family: fantasy;
+	text-align: center;
+}
+table{
+	font-size: 20px;
+}
+*{
+text-decoration: none;
+}
+header{
+	text-decoration: none;
+	display: flex;
+	padding: 30px;
+	justify-content: right;
+	text-transform: uppercase;
+	margin: 30px;
+}
+strong{
+	color: black;
+	font-family: algerian;
+	justify-content: left;
+	font-size: 50px;
+	font-weight: bold;
+	padding-left: 40px;
+	margin-right: 650px;
+}
+header h3 a{
+	background-size: 60px;
+    margin: 30px;
+	margin-top: 30px;
+    transition: 0.9s ease;
+    color: black;
+}
+
+header h3 a:hover{
+	background: white;
+	color: black;
+}
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.678),rgba(0, 0, 0, 0.753)),url(bureau.jpg);
+	color: white;
+}
+img{
+	transition: 500ms;
+}
+img:hover{
+	filter: grayscale(1);
+	transform: scale(1.3);
+}

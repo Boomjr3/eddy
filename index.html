@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Accueil</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	
+   <header>
+    <a href="#"><strong>PC STORE</strong></a> 
+	<h3><a href="#">Accueil</a></h3>
+	<h3><a href="produit.html">Nos produits</a></h3>
+	<h3><a href="infos.html">Infos</a></h3>
+   </header>
+
+	<div class="hero">
+		<div class="form">
+			<div class="button">
+				<div id="b"></div>
+				<button type="button" class="btn" onclick="login()">Se connecter</button>
+				<button type="button" class="btn" onclick="register()">S'incrire</button>
+			</div>
+			<div class="icones">
+			<a href=""><img src="C:\Users\ULTIME\AppData\Roaming\utorrent\maindoc.ico"></a>
+		</div>
+		<form id="login" class="input">
+			<input type="text" placeholder="Votre login" class="inf" required><br>
+			<input type="password" placeholder="votre mot de passe" class="inf" required><br><br><br>
+            <button type="submit" class="sub"><a href="produit.html">Se connecter</a></button>
+		</form>
+
+		<form id="register" class="input">
+			<input type="text" placeholder="Votre login" class="inf" required><br>
+			<input type="email" placeholder="Votre adresse mail" class="inf" required><br>
+			<input type="password" placeholder="votre mot de passe" class="inf" required><br>
+			Sexe <input type="radio" name="j">M <input type="radio" name="j">F <br><br>
+			Qualite<select class="v">
+				<option>Haut de gamme</option>
+				<option>Milieu de gamme</option>
+				<option>Bas de gamme</option>
+			</select><br><br>
+			Preferences <br>
+			Laptop<input type="checkbox" name=""> 
+			Desktop<input type="checkbox" name=""> 
+			Aucune<input type="checkbox" name=""><br>
+            <button type="submit" class="sub">S'incrire</button>
+		</form>
+
+		</div>
+	</div>	
+</form>
+<script type="text/javascript">
+		var x = document.getElementById("login");
+		var y = document.getElementById("register");
+		var z = document.getElementById("b");
+
+		function register(){
+			x.style.left = "-400px";
+			y.style.left = "50px";
+			z.style.left = "110px";
+		}
+
+		function login(){
+			x.style.left = "50px";
+			y.style.left = "450px";
+			z.style.left = "0";
+		}
+	</script>
+</body>
+</html>
